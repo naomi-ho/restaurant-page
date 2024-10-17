@@ -33,6 +33,14 @@ body {
   src: url('./fonts/ppneuemontreal-italic.otf') format('opentype');
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
 button {
   font-family: 'Neue Montreal Book';
   font-size: 1.8rem;
@@ -40,7 +48,7 @@ button {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 0 20px 0 20px;
+  margin: 30px;
 }
 
 .home-details {
