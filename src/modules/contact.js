@@ -33,7 +33,7 @@ export function addContactElement() {
   hoursDiv.appendChild(hoursContentTimes);
 
   const phoneHeader = document.createElement('h1');
-  phoneHeader.textContent = 'Phone Number';
+  phoneHeader.textContent = 'Phone';
   phoneHeader.className = 'contact-header';
 
   const phoneContent = document.createElement('p');
